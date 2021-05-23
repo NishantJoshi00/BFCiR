@@ -1,6 +1,6 @@
 [package]
 name = "brainfuck-compiler"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Nishant Joshi <nishantjo.12@gmail.com>"]
 edition = "2018"
 

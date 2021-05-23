@@ -5,7 +5,7 @@ use clap::{Arg, App};
 fn main() {
     // CLI parsing
     let matches = App::new("BrainFuck Interpreter")
-                    .version("0.1.0")
+                    .version("1.0.0")
                     .author("Nishant J. <nishantjo.12@gmail.com>")
                     .about("Run Brainfuck files here")
                     .arg(Arg::with_name("INPUT")
