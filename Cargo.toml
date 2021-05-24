@@ -1,6 +1,6 @@
 [package]
 name = "brainfuck-compiler"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Nishant Joshi <nishantjo.12@gmail.com>"]
 edition = "2018"
 
@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 clap = "2.33.3"
+
+[lib]
+name = "bfc"
+path = "src/components.rs"
